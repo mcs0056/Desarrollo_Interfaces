@@ -24,7 +24,7 @@ public class BlocNotas2 {
     }
 }
     public BlocNotas2(){
-        VentanaPr = new PanelConFondo("C:\\Users\\Usuario1\\IdeaProjects\\BlocNotas\\src\\images\\atardecer_chill.jpg");
+        VentanaPr = new PanelConFondo("C:\\Users\\Miguel\\IdeaProjects\\BlocNotas\\src\\images\\atardecer_chill.jpg");
         VentanaPr.setLayout(new BorderLayout(10,10));
         VentanaPr.setBorder(BorderFactory.createEmptyBorder(20,20,20,20));
 
@@ -32,8 +32,10 @@ public class BlocNotas2 {
         JPanel superior = new JPanel();
         superior.setOpaque(false);
         superior.setLayout(new FlowLayout(FlowLayout.CENTER,10,10));
+
         //Logo
-        ImageIcon icono = new ImageIcon("C:\\Users\\Usuario1\\IdeaProjects\\BlocNotas\\src\\images\\logo_empresa.png");
+        logoLabel = new JLabel();
+        ImageIcon icono = new ImageIcon("C:\\Users\\Miguel\\IdeaProjects\\BlocNotas\\src\\images\\logo_empresa.png");
         Image img = icono.getImage().getScaledInstance(120,120, Image.SCALE_SMOOTH);
         logoLabel.setIcon(new ImageIcon(img));
         logoLabel.setOpaque(false);

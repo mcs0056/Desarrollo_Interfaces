@@ -11,7 +11,7 @@ public class BlocNotas {
     public BlocNotas(){
         VentanaPr = new JPanel(new BorderLayout(10,10));
         VentanaPr.setBorder(BorderFactory.createEmptyBorder(20,20,20,20)); //Logo
-        ImageIcon icono = new ImageIcon("C:\\Users\\Usuario1\\IdeaProjects\\BlocNotas\\src\\images\\logo_empresa.png");
+        ImageIcon icono = new ImageIcon("C:\\Users\\Miguel\\IdeaProjects\\BlocNotas\\src\\images\\logo_empresa.png");
         Image img = icono.getImage().getScaledInstance(120,120, Image.SCALE_SMOOTH);
         logoLabel.setIcon(new ImageIcon(img));
         logoLabel.setHorizontalAlignment(SwingConstants.CENTER);
